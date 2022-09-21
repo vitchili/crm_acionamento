@@ -1,0 +1,138 @@
+body{
+    background-color: #ECF0F5;
+    padding: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.botao-custom-texto-branco {
+    color: #fff;
+}
+.max-height-150{
+    max-height: 150px; 
+    overflow-y: scroll;
+}
+.max-height-120{
+    max-height: 120px; 
+    overflow-y: scroll;
+}
+.max-height-110{
+    max-height: 110px; 
+    overflow-y: scroll;
+}
+.badge-hover{
+    position: absolute;
+    background-color: #585858;
+    opacity: 0;
+    color: #fff;
+    padding: 6px;
+    border-radius: 3px;
+}
+.badge-hover:hover{
+    opacity: 0.6;
+}
+/*Seção branca - container padrão do sistema*/
+.container_app{
+    width: 100%;
+    background-color: #fff;
+    border: .5px solid #337ab7;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+.bloco_padding_container {
+    padding: 0px 5px 15px 5px;
+}
+.cabecalho_container{ 
+    background-color: #337ab7;
+    color: #fff;
+    border-bottom: .5px solid #337ab7;
+    padding: 0.5px 5px 5px 5px;
+}
+.orange_cabecalho_container{ 
+    background-color: orange;
+    color: #fff;
+    padding: 0.5px 5px 5px 5px;
+}
+.a-com-hover-laranja{
+    color: #ffffff;
+
+}
+.a-com-hover-laranja:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.invert_cabecalho_container{
+    background-color: #f5f5f5;
+    color: #337ab7;
+    border-bottom: .5px solid #337ab7;
+    border-radius: 4px 4px 0px 0px;
+
+    padding: 0.5px 5px 0.5px 5px;
+}
+/*Input padrão dos containers padrão*/
+.input-text-sm{
+    width: 100%;
+    height: 20px;
+    border: .5 solid #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.label-text-padrao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.label-text-padrao-light{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#label_range_desconto:hover{
+    opacity: 0.6;
+}
+#label_range_desconto{
+    position: absolute;
+    background-color: #585858;
+    opacity: 0;
+    color: #fff;
+    padding: 6px;
+    border-radius: 3px;
+}
+/*Grid para a tela de acionamentos. Dados Cadastrais e Telefones*/
+.grid_cadastrais_layout{
+    display: grid;
+    grid-template-columns: 22.56fr 5.33fr;
+    margin: 0px auto -10px auto;
+}
+.grid_dados_cadastrais{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr .5fr;
+}
+.col_1, .col_2, .col_3, .col_4, .col_5{
+    margin: 0px 15px;
+    text-align: justify;
+}
+.row_1, .row_2, .row_3, .row_4, .row_5{
+    margin: -3px;
+    text-align: justify;
+    display: grid;
+} 
+/*Div da lista de telefones com overflow y scroll*/
+.phones-list{
+    margin: 5px;
+}
+/*Div calcular a vista e a prazo*/
+#div_calcular_cima{
+    display: grid;
+    gap: 10px;
+    margin: 20px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.div_calcular_baixo{
+    margin: 5px 10px;
+}
+.bloco_detalhe_div_parcelas{
+    border: .5px solid #cccccc;
+}
